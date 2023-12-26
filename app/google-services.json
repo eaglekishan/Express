@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64331937337",
+    "project_id": "express-65120",
+    "storage_bucket": "express-65120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64331937337:android:e6cf4b20715318aa43ffe8",
+        "android_client_info": {
+          "package_name": "com.example.express"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrKGWptVSK23KAKzPpe0dlHcRKPqa0bO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

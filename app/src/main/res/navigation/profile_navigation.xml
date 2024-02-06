@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_navigation"
+    app:startDestination="@id/profile">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.express.Profile"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profile_to_friends_popup"
+            app:destination="@id/friends_popup"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/friends_popup"
+        android:name="com.example.express.friends_popup"
+        android:label="friends_popup" />
+</navigation>

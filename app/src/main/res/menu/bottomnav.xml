@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/bHome"
+        android:icon="@drawable/home2"
+        android:title="Home" />
+    <item
+        android:id="@+id/bSearch"
+        android:icon="@drawable/addperson"
+        android:title="Suggestion"
+
+        />
+    <item android:title="Post"
+        android:id="@+id/bPost"
+        android:icon="@drawable/add"
+        />
+    <item
+        android:id="@+id/bNotification"
+        android:icon="@drawable/following"
+        android:title="Following" />
+    <item
+        android:id="@+id/bProfil"
+        android:icon="@drawable/profil"
+        android:title="Profile" />
+
+
+</menu>
